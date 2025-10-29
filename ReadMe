@@ -1,0 +1,54 @@
+Food Quick Application
+
+Features
+Add customers, restaurants (and their menus), drivers, invoices
+Search customers and restaurant by name or search all customers and restaurants
+Search driver by City or search all drivers
+Search invoices by invoice numbers or search all invoices
+
+How to use:
+To use this program, run the Search class.
+If you are in Eclipse, right-click on Search.java and choose Run As → Java Application.
+If you are running from the command line, compile and run it like this:
+
+javac food/Search.java
+java food.Search
+
+Navigate the menus by typing the coresponding number and pressing enter
+
+Before creating invoice make sure of the following:
+You have added the customer in Customer Options
+You have viewed the viewed and know which menu items you want from which restaurant
+Please note: You may only order from one restaurant at a time
+Ensure the invoice number you are using has not already been used 
+
+Driver and invoice information will save to a .txt file when you select 5 (Exit) on Navigation menu
+
+Note to Reviewer:
+When I started this project with the understanding I have of java I thought
+the what I had written out in planning.txt would be followed however as I started
+coding and doing research I found my code adapted to my new understanding. 
+For example I orginally wanted as you will see to put the coding
+for saving the drivers and invoices to txt files in Drivers.java and Invoices.java
+but then when I went back to task 12 and reread it I decided it would be better to
+have a FileHandler class to save them, especially since drivers get added into Search.java 
+first. I also for example was going to have everything in Invoice.java in regards to the
+menu then realised how complex the invoice class was going to be so decided to rather
+make a search class as my main
+
+ I may have in my enthusiasm gone a little beyond the scope of 
+the assignment
+
+As this is not yet something covered there is a feature I 
+did not add yet that Im hoping to in the future, but what I would have like to have done is created an 
+adminstrative login for Food Quick staff and a seperate login/registration for 
+customers. This way customer and driver details would not be accessable to 
+customers. 
+Only Quick Food staff would be able to
+Add restaurants and driver
+Search customers, drivers and invoices
+Access the saved .txt files
+
+My ULM was created before I started the capstone so it does not completely match my code
+The <A> however is in there to show methods that would be locked to only Food Quick admins.
+

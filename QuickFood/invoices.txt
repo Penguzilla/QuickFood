@@ -1,0 +1,46 @@
+Order number 1001
+Customer: Jane
+Email: tester@tester.com
+Phone number: 073 123 4567
+Location: Cape Town
+
+Special instructions: None
+
+Total: R0.00 
+
+Sorry! Our drivers are too far away from you to deliver to your location.
+
+----------------------------
+Order number 1002
+
+Special instructions: No Onions
+
+Total: R0.00 
+
+null
+
+----------------------------
+Order number 777
+Customer: Mandy
+Email: mandy@test.com
+Phone number: 012 123 4567
+Location: Pretoria
+
+You have ordered the following from Test in Pretoria:
+
+2 x Pizza (R45.00)
+3 x Burger (R63.00)
+
+Special instructions: This is for final testing to ensure it all works
+
+Total: R279.00 
+
+David is nearest to the restaurant and so he will be delivering your order
+to you at:
+
+123 Testing this
+Pretoria
+
+If you need to contact the restaurant, their number is 072 123 4567.
+
+----------------------------
