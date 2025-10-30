@@ -1,0 +1,32 @@
+Order number 1001
+Customer: Jane
+Email: tester@tester.com
+Phone number: 073 123 4567
+Location: Cape Town
+
+You have ordered the following from Nom Nom in Pretoria:
+
+
+Special instructions: None
+
+Total: R0.00 
+
+Sorry! Our drivers are too far away from you to deliver to your location.
+
+If you need to contact the restaurant, their number is 012 324 1234.
+
+----------------------------
+Order number 1002
+
+You have ordered the following from Cafe Food in Durban:
+
+
+Special instructions: No Onions
+
+Total: R0.00 
+
+null
+
+If you need to contact the restaurant, their number is 013 324 3234.
+
+----------------------------
