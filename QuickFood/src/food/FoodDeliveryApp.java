@@ -5,33 +5,14 @@ import java.util.Scanner;
 
 public class FoodDeliveryApp {
   public static void main(String[] args) {
-    // Create customer & restaurant & driver lists
-    ArrayList<Customer> customersList = new ArrayList<>();
-    ArrayList<Restaurant> restaurantsList = new ArrayList<>();
-    ArrayList<Driver> driversList = new ArrayList<>();
-    ArrayList<Invoice> invoicesList = new ArrayList<>();
+	// Create lists
+	  ArrayList<Customer> customersList = new ArrayList<>();
+	  ArrayList<Restaurant> restaurantsList = new ArrayList<>();
+	  ArrayList<Driver> driversList = new ArrayList<>();
+	  ArrayList<Invoice> invoicesList = new ArrayList<>();
 
-    // Hard coded for Testing
-    customersList.add(new Customer("John", "123 Streeterson", "Pretoria",
-        "test@test.com", "082 123 4567"));
-    customersList.add(new Customer("Jane", "321 Roadway", "Cape Town",
-        "tester@tester.com", "073 123 4567"));
-    customersList.add(new Customer(
-        "Mike", "456 Avenue", "Durban", "mike@m.com", "084 555 5555"));
-
-    driversList.add(new Driver("James", "Pretoria", 3));
-    driversList.add(new Driver("Liam", "Durban", 5));
-    driversList.add(new Driver("Edward", "Pretoria", 1));
-
-    invoicesList.add(new Invoice(1001, "Jane", "Nom Nom", customersList,
-        restaurantsList, driversList, "None"));
-    invoicesList.add(new Invoice(1002, "Liam", "Cafe Food", customersList,
-        restaurantsList, driversList, "No Onions"));
-
-    restaurantsList.add(new Restaurant("Nom Nom", "Pretoria", "012 324 1234",
-        new String[][] {{"Chips", "20"}, {"Toast", "12"}}));
-    restaurantsList.add(new Restaurant("Cafe Food", "Durban", "013 324 3234",
-        new String[][] {{"Bunny Chow", "45"}, {"Scrambled eggs", "20"}}));
+	  // Load initial test data
+	  HardCoding.initializeData(customersList, restaurantsList, driversList, invoicesList);
 
     // Scanner for input
     Scanner scanner = new Scanner(System.in);
